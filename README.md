@@ -1,5 +1,5 @@
 <div align="center">
-  Website Template Credit To brittanychiang.com
+  Website Template Credit To <h1> brittanychiang.com </h1>
 </div>
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />

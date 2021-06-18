@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'React',
+    'C++',
+    'Redux',
+    'Node.js',
+    'Python',
+    'PyTorch',
+    'Keras',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,21 +144,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Gaoxiang Zhou and I enjoy doing innovative and cool design stuff. My
+              interest in software development can be traced back when I was in high school and
+              wrote my first line of code building an arduino-based robot and being particularly
+              satisfactory about the achievements.
             </p>
 
             <p>
               Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://www.johnsoncontrols.com/">an security and HVAC leading company</a>,{' '}
+              <a href="https://www.huawei.com/ca/">a huge corporation</a>,{' '}
+              <a href="http://www.ccb.com/en/home/indexv3.html">
+                a fintech and banking corporation
+              </a>
+              . My current diligence is building various automation tools, web &amp; mobile apps as
+              well as machine learning applications
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

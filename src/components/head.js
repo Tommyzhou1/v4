@@ -25,16 +25,11 @@ const Head = ({ title, description, image }) => {
     `,
   );
 
-  const {
-    defaultTitle,
-    defaultDescription,
-    siteUrl,
-    defaultImage,
-    twitterUsername,
-  } = site.siteMetadata;
+  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername } =
+    site.siteMetadata;
 
   const seo = {
-    title: title || defaultTitle,
+    title: 'Gaoxiang Zhou' || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
